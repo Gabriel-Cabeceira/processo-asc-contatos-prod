@@ -17,7 +17,7 @@ use App\Controllers\ContactController;
 
 
 // // Cria uma instância do PDO para se conectar ao banco de dados
-$pdo = new PDO('mysql:host=192.168.100.62;dbname=contatos_data_base', 'root', 'root');
+$pdo = new PDO('mysql:host=54.161.127.132;dbname=contatos_data_base', 'user_app', 'senha123');
 
 // Inicializa o controller
 $contactController = new ContactController($pdo);
